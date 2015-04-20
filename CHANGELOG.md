@@ -19,6 +19,7 @@
 
 ### bug fixes
 - Changed jumpup-heroku version to 0.0.6 [[GH-475](https://github.com/Helabs/pah/issues/475)]
+- Update sass-rails. This fixes the bug `Sass::SyntaxError`
 
 ## 0.0.21 (March 19,2015)
 
