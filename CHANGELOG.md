@@ -1,6 +1,14 @@
 # Changelog
 
-## 0.0.22 (Unreleased)
+## 0.0.23 (Unreleased)
+
+### features
+
+### improvements
+
+### bug fixes
+
+## 0.0.22 (April 20,2015)
 
 ### features
 
@@ -11,6 +19,7 @@
 
 ### bug fixes
 - Changed jumpup-heroku version to 0.0.6 [[GH-475](https://github.com/Helabs/pah/issues/475)]
+- Update sass-rails. This fixes the bug `Sass::SyntaxError`
 
 ## 0.0.21 (March 19,2015)
 
