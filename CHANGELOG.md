@@ -5,6 +5,7 @@
 ### features
 
 ### improvements
+- Change command that add Heroku add-ons from `addons:add` to `addons:create`
 
 ### bug fixes
 - Changed NewRelic Add-on plan from stark to wayne
