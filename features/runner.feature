@@ -46,7 +46,7 @@ Feature: Run without errors
       """
     Then the stdout should contain:
       """
-      running heroku addons:add newrelic:stark --app myapponheroku
+      running heroku addons:add newrelic:wayne --app myapponheroku
       """
     Then the stdout should contain:
       """
