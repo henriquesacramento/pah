@@ -7,6 +7,7 @@
 ### improvements
 
 ### bug fixes
+- Changed NewRelic Add-on plan from stark to wayne
 
 ## 0.0.22 (April 20,2015)
 
