@@ -30,27 +30,27 @@ Feature: Run without errors
       """
     Then the stdout should contain:
       """
-      running heroku addons:add heroku-postgresql:dev --app myapponheroku
+      running heroku addons:create heroku-postgresql:dev --app myapponheroku
       """
     Then the stdout should contain:
       """
-      running heroku addons:add logentries --app myapponheroku
+      running heroku addons:create logentries --app myapponheroku
       """
     Then the stdout should contain:
       """
-      running heroku addons:add mandrill:starter --app myapponheroku
+      running heroku addons:create mandrill:starter --app myapponheroku
       """
     Then the stdout should contain:
       """
-      running heroku addons:add rollbar --app myapponheroku
+      running heroku addons:create rollbar --app myapponheroku
       """
     Then the stdout should contain:
       """
-      running heroku addons:add newrelic:wayne --app myapponheroku
+      running heroku addons:create newrelic:wayne --app myapponheroku
       """
     Then the stdout should contain:
       """
-      running heroku addons:add librato --app myapponheroku
+      running heroku addons:create librato --app myapponheroku
       """
     Then the stdout should contain:
       """

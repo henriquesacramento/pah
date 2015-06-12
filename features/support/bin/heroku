@@ -12,9 +12,9 @@ class Heroku < Thor
     puts "running heroku config:set #{config.join(' ')}"
   end
 
-  desc 'addons:add', 'stub of heroku addons:add'
-  define_method 'addons:add' do |*addon|
-    puts "running heroku addons:add #{addon.join(' ')}"
+  desc 'addons:create', 'stub of heroku addons:create'
+  define_method 'addons:create' do |*addon|
+    puts "running heroku addons:create #{addon.join(' ')}"
   end
 
   desc 'domains:add', 'stub of heroku domains:add'

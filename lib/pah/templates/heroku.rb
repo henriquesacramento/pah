@@ -35,7 +35,7 @@ class HerokuApp < Rails::Generators::AppGenerator
 
   def add_heroku_addon(addon)
     say "Adding heroku addon [#{addon}] to '#{name}'.".green
-    run "heroku addons:add #{addon} --app #{name}"
+    run "heroku addons:create #{addon} --app #{name}"
   end
 
   def add_canonical_domain(domain)
