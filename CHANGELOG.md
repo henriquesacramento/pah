@@ -1,8 +1,14 @@
 # Changelog
 
-## 0.0.23 (Unreleased)
+## 0.0.24 (Unreleased)
 
 ### features
+
+### improvements
+
+### bug fixes
+
+## 0.0.23 (June 12,2015)
 
 ### improvements
 - Change command that add Heroku add-ons from `addons:add` to `addons:create`
