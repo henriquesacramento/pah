@@ -5,6 +5,7 @@
 ### features
 
 ### improvements
+- Remove rack-timeout (ref.: https://github.com/heroku/rack-timeout/issues/73#issuecomment-89170627)
 
 ### bug fixes
 
