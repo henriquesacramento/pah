@@ -6,6 +6,8 @@
 
 ### improvements
 - Remove rack-timeout (ref.: https://github.com/heroku/rack-timeout/issues/73#issuecomment-89170627)
+- Change Ruby version to 2.2.2
+- Update the Gemfile to most recent gems
 
 ### bug fixes
 
