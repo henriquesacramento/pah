@@ -8,6 +8,7 @@
 - Remove rack-timeout (ref.: https://github.com/heroku/rack-timeout/issues/73#issuecomment-89170627)
 
 ### bug fixes
+- Fix `pg:backups schedule` task which requires --at param
 
 ## 0.0.23 (June 12,2015)
 
