@@ -58,7 +58,7 @@ Feature: Run without errors
       """
     Then the stdout should contain:
       """
-      running heroku pg:backups schedule DATABASE_URL --app myapponheroku
+      running heroku pg:backups schedule DATABASE_URL --at 02:00 America/Sao_Paulo --app myapponheroku
       """
     Then the output should contain:
       """

@@ -57,7 +57,7 @@ class HerokuApp < Rails::Generators::AppGenerator
   end
 
   def schedule_backup
-    run "heroku pg:backups schedule DATABASE_URL --app #{name}"
+    run "heroku pg:backups schedule DATABASE_URL --at '02:00 America/Sao_Paulo' --app #{name}"
   end
 
   def open
