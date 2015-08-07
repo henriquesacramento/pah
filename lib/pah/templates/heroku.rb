@@ -1,6 +1,6 @@
 class HerokuApp < Rails::Generators::AppGenerator
-  DEFAULT_ADDONS = %w(heroku-postgresql:dev logentries
-                      mandrill:starter rollbar newrelic:wayne librato)
+  DEFAULT_ADDONS = %w(heroku-postgresql logentries sendgrid rollbar newrelic
+                      librato)
 
   attr_reader :name, :description, :config
 

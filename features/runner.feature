@@ -30,7 +30,7 @@ Feature: Run without errors
       """
     Then the stdout should contain:
       """
-      running heroku addons:create heroku-postgresql:dev --app myapponheroku
+      running heroku addons:create heroku-postgresql --app myapponheroku
       """
     Then the stdout should contain:
       """
@@ -38,7 +38,7 @@ Feature: Run without errors
       """
     Then the stdout should contain:
       """
-      running heroku addons:create mandrill:starter --app myapponheroku
+      running heroku addons:create sendgrid --app myapponheroku
       """
     Then the stdout should contain:
       """
@@ -46,7 +46,7 @@ Feature: Run without errors
       """
     Then the stdout should contain:
       """
-      running heroku addons:create newrelic:wayne --app myapponheroku
+      running heroku addons:create newrelic --app myapponheroku
       """
     Then the stdout should contain:
       """
