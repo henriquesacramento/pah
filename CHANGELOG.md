@@ -10,6 +10,8 @@
 - Update the Gemfile to most recent gems
 
 ### bug fixes
+- Fix Heroku addon names
+- Replace to Mandrill addon with Sendgrid
 - Fix `pg:backups schedule` task which requires --at param
 
 ## 0.0.23 (June 12,2015)
