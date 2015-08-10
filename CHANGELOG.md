@@ -1,6 +1,14 @@
 # Changelog
 
-## 0.0.24 (Unreleased)
+## 0.0.25 (Unreleased)
+
+### features
+
+### improvements
+
+### bug fixes
+
+## 0.0.24 (August 10, 2015)
 
 ### features
 
