@@ -6,6 +6,8 @@
 ### features
 
 ### improvements
+- Change Ruby version to 2.2.3
+- Update the Gemfile to most recent gems
 
 ### bug fixes
 
