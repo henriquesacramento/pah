@@ -1,6 +1,8 @@
 # Changelog
 
-## 0.0.25 (Unreleased)
+## 0.0.26 (Unreleased)
+
+## 0.0.25
 - Remove web-console gem
 
 ### features

@@ -1,4 +1,4 @@
-Copyright (c) 2013-2015 HE:labs
+Copyright (c) 2013-2016 HE:labs
 
 MIT License
 
