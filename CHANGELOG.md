@@ -8,7 +8,7 @@
 ### features
 
 ### improvements
-- Change Ruby version to 2.2.3
+- Change Ruby version to 2.3.0
 - Update the Gemfile to most recent gems
 
 ### bug fixes
