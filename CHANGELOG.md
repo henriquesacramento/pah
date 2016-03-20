@@ -1,6 +1,7 @@
 # Changelog
 
 ## 0.0.26 (Unreleased)
+- Changed Rollbar version to 2.8.3
 
 ## 0.0.25
 - Remove web-console gem
