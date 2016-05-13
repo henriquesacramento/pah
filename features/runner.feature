@@ -21,8 +21,8 @@ Feature: Run without errors
       """
     Then the stdout should contain:
       """
-      running heroku sharing:add jondoe@example.com --app myapponheroku
-      running heroku sharing:add janedoe@example.com --app myapponheroku
+      running heroku access:add jondoe@example.com --app myapponheroku
+      running heroku access:add janedoe@example.com --app myapponheroku
       """
     Then the stdout should contain:
       """
