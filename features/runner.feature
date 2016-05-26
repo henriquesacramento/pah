@@ -4,6 +4,7 @@ Feature: Run without errors
   In order to use pah, I need this to run
   without any error
 
+  @no-travis
   Scenario: Running pah with heroku
     When I run `pah myapp_on_heroku` interactively
     And I type "y"
