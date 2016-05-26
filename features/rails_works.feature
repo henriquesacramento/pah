@@ -7,6 +7,7 @@ Feature: Rails works
   Scenario: The rails works
     When I run `cp -r myapp myapp_with_controller`
     And I cd to "myapp_with_controller"
+    And I run `ruby -e "Bundler.with_clean_env { system 'bundle exec spring stop' }"`
     And I run `ruby -e "Bundler.with_clean_env { system 'bundle exec rails g controller welcome index' }"`
     And I run `ruby -e "Bundler.with_clean_env { system 'bundle exec rails s' }"` interactively
     And I run `ruby -e "Bundler.with_clean_env { system 'sleep 15' }"`
