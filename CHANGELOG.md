@@ -1,6 +1,7 @@
 # Changelog
 
 ## 0.0.26 (Unreleased)
+- Fix Heroku sharing command, changed from sharing:add to access:add
 
 ## 0.0.25
 - Remove web-console gem

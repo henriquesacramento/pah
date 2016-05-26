@@ -4,6 +4,7 @@ Feature: Run without errors
   In order to use pah, I need this to run
   without any error
 
+  @no-travis
   Scenario: Running pah with heroku
     When I run `pah myapp_on_heroku` interactively
     And I type "y"
@@ -21,8 +22,8 @@ Feature: Run without errors
       """
     Then the stdout should contain:
       """
-      running heroku sharing:add jondoe@example.com --app myapponheroku
-      running heroku sharing:add janedoe@example.com --app myapponheroku
+      running heroku access:add jondoe@example.com --app myapponheroku
+      running heroku access:add janedoe@example.com --app myapponheroku
       """
     Then the stdout should contain:
       """

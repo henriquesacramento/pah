@@ -43,7 +43,7 @@ class HerokuApp < Rails::Generators::AppGenerator
   end
 
   def add_collaborator(email)
-    run "heroku sharing:add #{email} --app #{name}"
+    run "heroku access:add #{email} --app #{name}"
   end
 
   def add_timezone_config

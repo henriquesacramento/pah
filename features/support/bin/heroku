@@ -22,9 +22,9 @@ class Heroku < Thor
     puts "running heroku domains:add #{domain.join(' ')}"
   end
 
-  desc 'sharing:add', 'stub of heroku sharing:add'
-  define_method 'sharing:add' do |*domain|
-    puts "running heroku sharing:add #{domain.join(' ')}"
+  desc 'access:add', 'stub of heroku access:add'
+  define_method 'access:add' do |*domain|
+    puts "running heroku access:add #{domain.join(' ')}"
   end
 
   desc 'pg:backups', 'stub of heroku pg:backups'
