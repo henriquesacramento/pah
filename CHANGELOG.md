@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.0.26 (Unreleased)
+## 0.0.26 (May 26, 2016)
 - Fix Heroku sharing command, changed from sharing:add to access:add
 - Changed Rollbar version to 2.11.3
 
